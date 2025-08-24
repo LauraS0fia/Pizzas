@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeliciousPizzas</title>
+    <link rel="stylesheet" href="styles.css">
+<body>
+    <header> 
+        <h1>Delicious Pizzas</h1> 
+    </header>
+<main>
+
+<section class="seccion-portada"> 
+    <div class="imagen portada">
+        <img class="imagen-portada" src="images/pizza.jpg" alt="pizza portada">
+    </div>
+    
+    <div class="texto-portada">
+    <p>
+        Date la  oportunidad de probar las mejores pizzas con la receta 
+        <span>italiana</span> mas sabrosa que has probado
+    </p> 
+    </div>
+    
+    <button class="boton-pedir">
+    Pide ahora!!
+    </button>
+</section>
+
+<div class="contenedor-sucursales">
+    <div class="sucursales">
+    <h2>Nuestras Sedes</h2>
+    <ul>
+        <li>📍 Bogotá</li> 
+        <li>📍 Medellín</li>
+        <li>📍 Cali</li>
+    </ul>
+    </div>
+
+</div>
+
+        <section class="menu">
+            <h2>Nuestro Menú</h2>
+            <ul>
+                <li>
+                    <strong style="font-size: 1.3rem; color: var(--primary-red);">Napolitana</strong>
+                    <p style="margin-top: 0.5rem; color: #666;">La clásica pizza italiana con tomate San Marzano, mozzarella fresca y albahaca.</p>
+                </li>
+                <li>
+                    <strong style="font-size: 1.3rem; color: var(--primary-red);">Pepperoni</strong>
+                    <p style="margin-top: 0.5rem; color: #666;">Generosas rodajas de pepperoni sobre nuestra salsa especial y queso mozzarella.</p>
+                </li>
+                <li>
+                    <strong style="font-size: 1.3rem; color: var(--primary-red);">Vegetariana</strong>
+                    <p style="margin-top: 0.5rem; color: #666;">Una explosión de vegetales frescos: pimientos, champiñones, cebolla y aceitunas.</p>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <section class="seccion-formulario">
+        <form class="formulario">
+            <h3>🍕 Pide tu Pizza</h3>
+            
+            <div class="input-formulario">
+                <label for="nombre">Nombre completo:</label>
+                <input class="formulario_input" type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+            </div>
+            
+            <div class="input-formulario">
+                <label for="correo">Correo electrónico:</label>
+                <input class="formulario_input" type="email" id="correo" name="correo" placeholder="tu@correo.com" required>
+            </div>
+            
+            <div class="input-formulario">
+                <label for="direccion">Dirección de entrega:</label>
+                <input class="formulario_input" type="text" id="direccion" name="direccion" placeholder="Tu dirección completa" required>
+            </div>
+
+            <div class="metodos-pago">
+                <h4>💳 Método de pago:</h4>
+                <div class="grupo-radio">
+                    <div class="radio-option">
+                        <input type="radio" name="pago" value="PSE" id="pse">
+                        <label for="pse">PSE</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" name="pago" value="Efectivo" id="efectivo">
+                        <label for="efectivo">Efectivo</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" name="pago" value="Tarjeta" id="tarjeta">
+                        <label for="tarjeta">Tarjeta de crédito</label>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="boton-formulario" type="submit">🚀 Realizar Pedido</button>
+        </form>
+    </section>
+</main>
+    <footer>
+        <p>2025 Delicious Pizzas. Todos los derechos reservados. | Las mejores pizzas de Colombia</p>
+    </footer>
